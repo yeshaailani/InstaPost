@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.instagram.ImagesActivity">
+    <item android:id="@+id/menu_createpost"
+        android:title="@string/createpost">
+    </item>
+
+    <item android:id="@+id/menu_home"
+        android:title="@string/home"
+        />
+
+    <item android:id="@+id/menu_users"
+        android:title="@string/users"
+        />
+
+    <item android:id="@+id/menu_hashtags"
+        android:title="@string/hashtags"
+        />
+
+
+    <item android:id="@+id/menu_signout"
+        android:title="@string/signout"/>
+</menu>
